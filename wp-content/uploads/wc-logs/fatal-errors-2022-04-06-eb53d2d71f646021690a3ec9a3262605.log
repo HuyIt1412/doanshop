@@ -1,0 +1,80 @@
+2022-04-06T03:02:19+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\workspace\laravel8\doanshop\wp-content\themes\storefront\functions.php on line 72
+
+2022-04-06T03:06:36+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\workspace\laravel8\doanshop\wp-content\themes\storefront\functions.php on line 74
+
+2022-04-06T03:10:44+00:00 CRITICAL syntax error, unexpected identifier "id", expecting "]" in D:\workspace\laravel8\doanshop\wp-content\themes\storefront\functions.php on line 72
+
+2022-04-06T03:33:05+00:00 CRITICAL syntax error, unexpected integer "97", expecting ")" in D:\workspace\laravel8\doanshop\wp-content\themes\storefront\functions.php on line 80
+
+2022-04-06T03:48:44+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
+2022-04-06T03:51:31+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
+2022-04-06T03:51:42+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
+2022-04-06T03:51:43+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
+2022-04-06T03:54:06+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
+2022-04-06T03:54:39+00:00 CRITICAL Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php:237
+Stack trace:
+#0 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php(237): round('')
+#1 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_options_view.php(281): include('D:\\workspace\\la...')
+#2 D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\libs\sfsi_install_uninstall.php(1325): include('D:\\workspace\\la...')
+#3 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(307): sfsi_plus_options_page('')
+#4 D:\workspace\laravel8\doanshop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\workspace\laravel8\doanshop\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 D:\workspace\laravel8\doanshop\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#7 {main}
+  thrown in D:\workspace\laravel8\doanshop\wp-content\plugins\ultimate-social-media-plus\views\sfsi_pop_content.php on line 237
+
