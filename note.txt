@@ -1,0 +1,17 @@
+Cấu hình đồ án cuối kỳ môn Lập trình Web nâng cao
+1. Đổi port apache:
+    .config file httpd.conf: 80 ----> 1234
+    .config file httpd-ssl.conf: 443 ----> 4433
+2. Port của MySQL thì giữ nguyên: 3306
+3. Vô phpMyAdmin: 
+    .tạo database tên doanshop
+    .click vô database vừa tạo, vào ô Nhập sau đó upload file SQL có trong file nén
+4. Vào http://localhost:1234/doanshop/wp-login.php để đăng nhập vào trang admin
+account: admin
+password: admin
+
+Thành viên nhóm:
+1. Nguyễn Hải Trình - 197CT22636
+2. Lưu Quốc Trung - 197CT22642
+3. Nguyễn Hoàng Huy - 197CT09734
+4. Ngô Trần Đa Bảo Quốc - 197CT09965
