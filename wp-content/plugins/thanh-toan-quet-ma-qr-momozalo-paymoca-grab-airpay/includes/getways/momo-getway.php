@@ -39,6 +39,7 @@ class MomoQrScanGetWay extends QrScanGetWay {
         $this->fullname          = $this->get_option( 'fullname' );
         $this->phone          = $this->get_option( 'phone' );
         $this->email          = $this->get_option( 'email' );
+        $this->link_nhan_tien          = $this->get_option( 'link_nhan_tien' );
         $this->finish_notify_text          = $this->get_option( 'finish_notify_text' );
         $this->send_qr_image_in_email          = $this->get_option( 'send_qr_image_in_email' );
         $this->default_order_payment_done_status = $this->get_option( 'default_order_payment_done_status' );
@@ -125,6 +126,12 @@ class MomoQrScanGetWay extends QrScanGetWay {
                 'title' => __( 'Email Momo', 'woocommerce' ),
                 'type' => 'text',
                 'description' => __( 'Email đăng ký Momo - Dùng để kích hoạt đơn hàng tự động', 'woocommerce' ),
+                'default' => '',
+                'desc_tip'      => false,
+            ),'link_nhan_tien' => array(
+                'title' => __( 'Link nhận tiền Momo', 'woocommerce' ),
+                'type' => 'text',
+                'description' => __( 'Lấy link bằng cách. Bấm vào Avatar trên App MoMo -> chọn Link nhận tiền -> copy link và dán vào đây', 'woocommerce' ),
                 'default' => '',
                 'desc_tip'      => false,
             ),
@@ -229,6 +236,10 @@ class MomoQrScanGetWay extends QrScanGetWay {
         $price = $order->get_total( );
         $phone = $this->phone;
         $link_momo_mobile = "https://nhantien.momo.vn/$phone/$price";
+        if($this->link_nhan_tien){
+            $link_momo_mobile = $this->link_nhan_tien;    
+        }
+        
         /*$api_price = $price;
         if(get_option('woocommerce_currency') == "USD"){
             $api_price = $api_price * floatval($this->get_option( 'oneUSD2VND' ));
@@ -264,14 +275,15 @@ class MomoQrScanGetWay extends QrScanGetWay {
 
                 <p>Hoặc bạn cũng có thể tải QR để quét và thanh toán qua app</p>
                 <div class="qr-wrapper">
-                    
-                    <img class="mc-qrcode" download="qrcode" src="<?php echo $qr_url; ?>">
-
                     <a download="qrcode" href="<?php echo $qr_url; ?>"  target="_blank" id="downloadqrcode" class="btn-download-in-image">
 
                         <img class="mc-downloadicon" src="<?php echo sprintf("%s/public/images/download.png",MC_QUETMA_PLUGIN_URL); ?>">
                          Tải Mã QR Để Quét
                     </a>
+                    
+                    <img class="mc-qrcode" download="qrcode" src="<?php echo $qr_url; ?>">
+
+                    
                 </div>
                 
 

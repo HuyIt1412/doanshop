@@ -16,7 +16,7 @@
  * Plugin Name:       Thanh Toán Quét Mã QR - Momo,Zalo Pay,Moca Grab, AirPay
  * Plugin URI:        https://mecode.pro
  * Description:       Thanh toán quét mã QR, hổ trợ Momo,Zalo Pay,Moca Grab, ShopeePay
- * Version:           1.2.3
+ * Version:           1.2.4
  * Author:            MeCode
  * Author URI:        https://mecode.pro
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'MC_QUETMA_VERSION', '1.2.3' );
+define( 'MC_QUETMA_VERSION', '1.2.4' );
 define( 'MC_QUETMA_PLUGIN_URL', esc_url( plugins_url( '', __FILE__ ) ) );
 
 /**

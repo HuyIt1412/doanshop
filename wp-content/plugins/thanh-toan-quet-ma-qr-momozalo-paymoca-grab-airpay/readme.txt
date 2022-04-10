@@ -1,6 +1,6 @@
-=== Thanh Toán Quét Mã QR - Momo,Zalo Pay,Moca Grab, AirPay ===
+=== Thanh Toán Quét Mã QR - Momo,Zalo Pay,Moca Grab, Shopee Pay ===
 Contributors: dangngocbinh
-Donate link: http://mecode.pro
+Donate link: https://mecode.pro
 Tags: tich hop momo wordpress, tich hop zalopay wordpress, thanh toan quet ma qrcode, plugin moca grab, plugin airpay
 Requires at least: 4.6
 Tested up to: 5.7
@@ -9,7 +9,7 @@ Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Tích hợp thanh toán quét mã QR Code Momo, ZaloPay, Grab Moca, AirPay cho Woocommerce
+Tích hợp thanh toán quét mã QR Code Momo, ZaloPay, Grab Moca, Shopee Pay cho Woocommerce
 
 == Description ==
 
@@ -63,6 +63,8 @@ Bạn vui lòng gởi thông tin vào phần Support để được hổ trợ
 6. Màn hình chọn cổng thanh toán khi đặt hàng
 
 == Changelog ==
+= 1.2.4 =
+* Thêm ô link nhận tiền Momo do link nhận tiền cũ https://nhantien.momo.vn/SDT/SO_TIEN không còn hoạt động đúng dễ gây ra tình trạng bỏ đơn. Bạn vui lòng nhập link nhận tiền thủ công cho Momo để thay thế
 = 1.2.3 =
 * Tắt âm thanh thông báo đơn hàng thành công
 = 1.2.2 =

@@ -69,15 +69,15 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
  */
-
-add_action('init','child_theme_init');
+add_action( 'init', 'child_theme_init' );
 function child_theme_init() {
-add_action('storefront_before_content','woa_add_full_slider',5);
+add_action( 'storefront_before_content', 'woa_add_full_slider', 5 );
 }
-function woa_add_full_slider(){?>
+function woa_add_full_slider() { ?>
 <div id="slider">
-<?php echo do_shortcode("[metaslider id=97  restrict_to=home]"); ?>			
+<?php echo do_shortcode("[metaslider id=97 percentwidth=100 restrict_to=home]"); ?>
 </div>
 <?php }
+
 
 

@@ -313,7 +313,7 @@ class QrScanGetWay extends WC_Payment_Gateway {
                         jQuery('#mc-mobileguide .framegif .frame'+curFrame).fadeIn();
                         curFrame++;
                         curFrame = curFrame % jQuery('#mc-mobileguide .framegif .frame').length;
-                    }, 3000);
+                    }, 1500);
                 }
 
                 function runFrameWithClass(className){
